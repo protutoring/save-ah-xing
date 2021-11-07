@@ -1,0 +1,50 @@
+ <head>  
+   <link rel="stylesheet" type="text/css" href="css/style.css"/>  
+</head> 
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>    
+<body>    
+    <h2>Save Nan Ah Xing</h2><br>    
+    <div class="login">    
+    <form name="form1" id="login" method="get" action="#">    
+        </b>    
+        </label>        
+        <label><b>Enter the final Passcode     
+        </b>    
+        </label>    
+        <input type="text" name="pass" id="pass" placeholder="Password">    
+        <br><br>    
+       <!--*<input type="button" name="log" id="log" value="Click Me"> --> 
+        <button onclick="welcome(document.form1.pass)"> Click me </button> 
+
+    </form>
+        
+    <script>   
+		function welcome(inputtxt) { 
+			var passw = "password";
+			if(inputtxt.value.match(passw))
+					{
+						alert('Correct')
+						return true;
+
+					}
+			else{
+				alert('Wrong')
+				retun false;
+			}
+
+		}	
+      	</script>   
+
+  <!--      <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    -->
+</div>    
+</body>    
+</html>     
