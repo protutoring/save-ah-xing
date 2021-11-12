@@ -58,7 +58,7 @@ img.avatar {
 	color:red;
 	margin: 0;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -162,7 +162,7 @@ span.psw {
 </head>
 <body>
 <div class="bg">
-		<img src="background.jpg" id="bg" alt="">
+		<img src="background2.jpg" id="bg" alt="">
 
 	</div>
     <div class="center1">
@@ -210,13 +210,26 @@ window.onclick = function(event) {
 <script>
 
 function verify(inputtxt){
-	var hardcoded = "xx";
+	var hardcoded = "PEACE";
 		if(inputtxt.value.match(hardcoded)){
-					alert('Correct')
+					
+					//if(window.confirm('Congratulations!!! You have successfully save NAN AH XING :)')){
+						//window.location.replace("https://docs.google.com/presentation/d/1nOFeIkyXZPpi8bSRvo9x31judIHQ3561V5Fm-EpaFLQ/preview#slide=id.p");
+
+					//}
+alert('Congratulations!!! You have successfully save NAN AH XING :)');
+
+					//alert('Congratulations!!! You have successfully save NAN AH XING :)');
+//window.location.replace("https://docs.google.com/presentation/d/1nOFeIkyXZPpi8bSRvo9x31judIHQ3561V5Fm-EpaFLQ/preview#slide=id.p");
+window.open("https://docs.google.com/presentation/d/1nOFeIkyXZPpi8bSRvo9x31judIHQ3561V5Fm-EpaFLQ/preview?rm=minimal#slide=id.p");
+
+
+					
 					//return true;
+					
 		}
 		else{
-					alert('wrong')
+					alert('Sorry. You have entered the wrong passdoce :(')
 					//return false;
 		}
 
